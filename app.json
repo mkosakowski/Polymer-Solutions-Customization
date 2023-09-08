@@ -1,0 +1,42 @@
+{
+  "id": "af83ebb7-c7a9-4414-84b1-f01647ca99d3",
+  "name": "Polymer Solutions Customization",
+  "publisher": "RSM US LLP",
+  "version": "1.0.0.57",
+  "runtime": "10.0",
+  "target": "Cloud",
+  "application": "22.0.0.0",
+  "platform": "22.0.0.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "dependencies": [
+    {
+      "id": "708110af-6111-407b-96cb-8ad720f68ec3",
+      "name": "Quality Management",
+      "version": "1.0.0.0",
+      "publisher": "RSM US LLP"
+    },
+    {
+      "id": "ba1776ba-1198-4b4c-a61e-c4612f1880d5",
+      "name": "IWorks Common",
+      "version": "2.7.8118.0",
+      "publisher": "Insight Works"
+    },
+    {
+      "id": "bf3d7ec5-acaa-4352-8ecb-b6281c546cd8",
+      "name": "BarTender Integration",
+      "version": "21.4.48.0",
+      "publisher": "RSM US LLP"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50250
+    }
+  ]
+}

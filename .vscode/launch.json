@@ -1,0 +1,20 @@
+{//https://businesscentral.dynamics.com/d29f230f-9d86-440d-a6ef-232b6b77745e/TEST-2023-08-31
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "TEST-2023-08-31",
+            "tenant": "d29f230f-9d86-440d-a6ef-232b6b77745e",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}

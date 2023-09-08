@@ -1,0 +1,1712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>b23244e3-9790-4712-be0f-6041ac5f0e69</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Textbox Name="Textbox2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Polymer Solutions Group LLC's companies, including, without limitation Flow Polymers, LLC, SASCO Chemical, LLC, and SASWAY Transport LLC (in each case herinafter referred to as "Seller") are represented in the following Terms and Conditions of Sale.</Value>
+                    <Style>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>The sale of all products and services by Seller to the purchaser ("Customer") shall be subject to and governed by these terms and conditions of sale (these "Terms and Conditions"). Seller's acceptance of any order or other offer by Customer (whether in-writiing, by telephone or otherwise) for any products or services shall be conditioned upon Customer's agreement to thse Terms and Conditions. Such assent shall be deemed given upon the eralier of: (i) Customer's acceptance of these Terms and Conditions pursuant to a credit application containing or referencing these Terms and Conditions: (ii) Customer's acceptance of these Terms and Conditions pursuant to a separate agreement by an between Seller and Customer containing or referencing these Terms and Conditions ( a "Separate Agreement"); (iii) Customer ordering products or services to Customer where Customer, however gained, including, without limitation, in a Seller quotation, proposal, or by means of purchase order submitted by Customer and accepted by Seller; (iv) delivery of products or services to Customer where Customer, however gained, including without limitation, in a Seller quotation, proposal, acknolwedgement, bill of lading, invoice, or any other writing (including, without limitation, electronic correspondence) containing or referencing these Terms and Conditions; or (v) payment by Customer to Seller for Seller's productions or serviced, however gained, including, without limitation, in a Seller quotation, proposal, acknowledgement, bill of lading, invoice or any other writing (including, without limitation, electronic correspondence). No additional or different terms or conditions, whether contained in a purchase order or any other communication from Customer (whether written or oral and whether previously given or later asserted), shall be binding upon Seller (unless specifically agreed to in writing by an executive officer of Seller), and Seller objects to and rejects any provision additional to or different from these Terms and Conditions. The failure of Seller to object to any such additional or different terms and conditions shall not be a waiver of these Terms and Conditions or an acceptance of such addtional or different terms or conditions. No modification or amendment of, or addition to, these Terms and Conditions or any Customer Order accepted by Seller shall be binding unless in writing and signed by an executive officer of Seller.</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Customer Acknowledgements. </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Customer acknowledges that it is responsible for the safe selection, unloading, handling, storage, use and disposal of the products. </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Customer warrants that it will:</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>familiarize itself with, and follow recommendations contained in, production information supplied by Seller at any time;</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Bulleted</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>follow safe handling, use, selling, storage, transportation and disposal practices and ensure that all employees, contractors, agents and customers follow these practices;</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Bulleted</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>take action to avoid spills or other dangers to perssons, property or the environment, and in the event of such occurance, take immediate action, at its own expense, to abate or otherwise address the spill or other danger;</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Bulleted</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>without limiting any other terms hereunder, indemnify Seller aginst any claim, loss, liability and expense (including reasonable attroney fees) on account of any damage to property or injury or death of persons (including without limitation Customer's employees and other personnel) arising out of Customer's unloading, handling, storage, use sales or disposal of the products or the failure of Customer to comply with any of the obligations set forth in these Terms and Conditions; and </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Bulleted</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>comply with all federal, state, and local laws, rules, and regulations concerning the transportation, storage, use, sales, and disposal of products including all safety and environmental laws, rules, and regulations</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <ListStyle>Bulleted</ListStyle>
+                <ListLevel>1</ListLevel>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Customer Warranty and Obligations. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Customer warrants that it has received and is familiar with product information published by Seller, that it has used its own independent skill and expertise in connection with the selection and use of the products and that it possesses skill and expertise in the handling, storage, transportation, treatment, use and disposal of the products. To the extent Customer requires Seller, and Seller agrees, to affix or provide Customer’s label to products ordered, Customer warrants that said label is accurate for the product ordered. Customer shall determine the suitability of the products for their purpose and assume the responsibility for all risks and liabilities which may result from their use.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Pricing; Payment; Taxes. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Customer will pay Seller the price set forth in any purchase order, quotation, proposal, acknowledgement, bill of lading, invoice or any other writing (including, without limitation, electronic correspondence). Customer will pay for the products and services on the terms set forth in a Separate Agreement, a Seller quotation or proposal, a purchase order submitted by Customer and accepted by Seller, or a Seller acknowledgement, bill of lading or invoice, as applicable. If payment terms are not set forth in any such document, payment must be received by Seller net 30 days from invoice date. Unless otherwise agreed in writing by Seller and Customer, Seller will invoice Customer upon shipment of products or commencement of services. All payments shall be made in the currency listed in any such document, as applicable, or, if not so listed, then in U.S. dollars. Seller, or its assignee, may charge the maximum interest allowed by law on all overdue amounts. If payments are not paid on time, or if Seller has reason to believe that Customer’s financial status is unsatisfactory, Seller may defer shipments, accelerate due dates on all amounts owed, and/or require cash or other security. Customer agrees to pay all of Seller’s collection costs (including reasonable attorney fees) incurred as a result of Customer’s failure to make payment in accordance with applicable payment terms. Unless otherwise provided by law, Buyer shall pay to Seller any and all taxes, excises or other charges (other than taxes on or measured by Seller's net income) which are based upon or measured by the sale, transportation, delivery or use of Goods sold and delivered hereunder or upon the Services performed by Seller. In addition, Buyer agrees that any claim regarding overpayment must be asserted within one (1) year from the date such Goods were invoiced to Buyer or the date such Services were performed. All claims not asserted within such one (1) year period shall be deemed irrevocably waived. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07986in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>8pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07986in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>8pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Freight. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Freight prepaid shipments shall be made by Seller's normal routing. Transportation and freight costs for prepaid shipments will be invoiced to Buyer. If Seller arranges transportation for Buyer, such arrangements shall be at Buyer's sole risk and expense, and transfer of title and risk of loss shall not be affected thereby. In the event of any general increases or any ruling or regulation affecting transportation that results in increased freight costs or in the event any extraordinary transportation costs are charged to Seller subsequent to its invoice to Buyer, including but not limited to fuel surcharges, Seller, in its sole discretion, may include all such costs on Buyer's next invoice following the charge.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Delivery. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Unless otherwise stated in a Separate Agreement, a Seller quotation or proposal, a purchase order submitted by Customer and accepted by Seller, or a  Seller acknowledgement, bill of lading or invoice, as applicable, (i) all products will be delivered to Customer EX Works the manufacturing facility of the products (the “Facility”); and (ii) the provisions of the most current version of INCOTERMS, International Chamber of Commerce Publication, are incorporated herein by reference. Seller shall use reasonable efforts to meet Customer’s requested delivery date, but Seller does not guarantee a specific delivery date. For international shipments, Seller may, in its sole discretion, agree to clear goods for export, provided that all related fees will be charged to the Customer. In the case of international sales, unless otherwise agreed by Seller, Customer shall be solely responsible for: (i) providing to Seller, prior to shipment and in writing, the ultimate destination and identity of the end-user; (ii) paying all duties, taxes and other charges imposed by any government on products or on the purchase, exportation, importation or re- exportation of products; and (iii) for compliance with all applicable laws, including but not limited to export control laws, and applicable regulations which may be issues from time to time concerning the exporting, importing and re-exporting of products. In addition, for U.S. export licensing purporses, Customer shall provide to Seller and and all documentation required to complete any and all applicable United States of America State Department or Commerce Department license applications. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Title; Risk of Loss. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Title to the products shipped hereunder and the risk of loss shall pass to Customer upon Seller's delivery to a carrier or into Customer's transport</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>QUANTITY VARIATIONS</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. On any individual Purchase Order or release against a Purchase Order for Seller's Goods not stocked as a standard item, or not packed in standard cartons or packages, or on which special fabrications or constructions are involved, Seller reserves the right to ship to and invoice Buyer for a quantity of Goods, which may vary up to lo percent (10%) over or under the quantity specified on the purchase Order or release and Buyer shall accept delivery and pay for such revised quantity. Shortages or errors in quantity of Goods must be reported, in writing, by Buyer within thirty (30) days from receipt of shipment to secure an adjustment for the same. In addition, claims for proof of delivery of a shipment must be made with fifteen (15) days from the scheduled delivery date.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.025in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>8pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Right to Inspect; Notice of Rejection</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. Customer shall have the right to inspect the products upon tender by Seller or the carrier. The failure of Customer to inspect any particular shipment within sixty (60) days after tender to Customer shall constitute a waiver of Customer’s rights to inspect that shipment and shall constitute an acceptance of such products. All claims for shortages, defects or other non-conformities in products delivered shall be made in writing by Customer to Seller within sixty (60) days after their tender to Customer and shall fully specify the nature of such claims and the basis thereof. Failure to so notify Seller in writing of any claim within sixty (60) days after tender to Customer shall constitute an irrevocable acceptance of the products and an admission by Customer that the products comply fully with all terms, conditions and specifications of the corresponding order.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.025in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>8pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.025in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>8pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>If Customer rejects any products tendered, Customer shall fully specify the nature and basis of all claimed defects and other non-conformities in the notice of rejection sent to Seller within such sixty (60) day period. The failure to specify any particular defect or other non-conformity shall constitute a waiver by Customer of that defect or other non-conformity. If Customer rejects any tender of products in accordance herewith, Customer shall reship the products within a reasonable period of time to the place designated by Seller; provided, however, in no event are products to be returned by Customer without in each instance obtaining Seller’s prior written authorization, and Seller reserves the right to refuse any products returned for credit without such prior written authorization.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Limited Warranty. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Seller warrants that the products conform to Seller’s specifications at the time of shipment. The foregoing warranties will last for sixty (60) days after the date that such products are delivered by Seller. If during the applicable warranty period any products prove upon examination by Seller not to meet the warranties set forth above, Seller shall, at Seller’s sole option and as Customer’s sole and exclusive remedy, either (i) repair the defective or non-conforming products, (ii) replace the defective or non-conforming products, or (iii) provide to Customer a refund or credit in the amount of the purchase price paid by Customer for the defective or non-conforming products. This exclusive remedy shall not be deemed to have failed of its essential purpose so long as Seller is willing and able to replace defective or non-conforming products in the prescribed manner. Any replacement products will be warranted for the unexpired portion of the warranty period applicable to the particular products. CUSTOMER ACKNOWLEDGES AND AGREES THAT EXCEPT AS EXPRESSLY SET FORTH IN THIS PARAGRAPH, SELLER MAKES NO REPRESENTATIONS OR WARRANTIES RELATED TO THE PRODUCTS OR THE SERVICES AND THAT THE FOREGOING WARRANTIES ARE IN LIEU OF ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE OR USE, ALL OF WHICH ARE EXPRESSLY DISCLAIMED.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08125in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Seller will not be responsible for transportation costs or for the costs of removal, installation, re-installation or making of access of any products or items, where such transportation, removal, installation, re-installation or making of access is required to repair or replace any defective products. Furthermore, Seller will not be responsible for and assumes no liability for materials or workmanship, labor costs or other related expenses for any work performed by third parties in the repair or replacement of defective products or the re-performance of services.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08125in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08056in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>The warranties provided in these Terms and Conditions will be voided if (i) the products have not been stored, installed, maintained or operated in accordance with accepted industrial practice, original manufacturer’s instructions or any specific instructions provided by Seller; (ii) the products have been subjected to any accident, misapplication, environmental contaminant, corrosion, damage, debris, abuse or misuse; (iii) Customer has modified the products without Seller’s prior written consent; (iv) Customer has used or repaired the products after discovery of the defect without Seller’s prior written consent; (v) Customer refuses to permit Seller to examine the products and operating data to determine the nature of the defect claimed; or (vi) Customer is in breach of its obligations under these Terms and Conditions.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08056in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08194in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>CUSTOMER’S REMEDIES ARE SPECIFICALLY LIMITED TO THE REPAIR OR REPLACEMENT, OR REFUND OR CREDIT IN THE AMOUNT OF THE PURCHASE PRICE, OF THE PRODUCTS, AS APPLICABLE, DURING THE WARRANTY PERIOD, AND ARE EXCLUSIVE OF ALL OTHER REMEDIES. SHOULD THESE REMEDIES BE FOUND INADEQUATE OR TO HAVE FAILED OF THEIR ESSENTIAL PURPOSE FOR ANY REASON WHATSOEVER, CUSTOMER AGREES THAT RETURN OF THE AMOUNT PAID BY CUSTOMER TO SELLER UNDER THESE TERMS AND CONDITION SHALL PREVENT THE REMEDIES FROM FAILING OF THEIR ESSENTIAL PURPOSE.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08194in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07986in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Indemnity and Hold Harmless Obligations. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Customer agrees to protect, defend, indemnify and hold harmless Seller and its affiliates, and each of Seller’s and its affiliates’ directors, managers, officers, employees and/or agents (each a “Seller Indemnitee” and collectively, “Seller Indemnitees”), from and against all claims, demands, causes of action, losses, damages, costs, liability and expenses which may be asserted against or incurred by a Seller Indemnitee or Seller Indemnitees arising out of the manufacture and/or sale of any products or provision of services furnished to or for Customer, including any claim, demand, or liability arising out of a breach of Customer’s obligations set forth in these Terms and Conditions or on account of actual alleged infringement of any United States patent or trademark.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07986in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07917in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>LIMITATION OF LIABILITY. THE CUMULATIVE LIABILITY OF SELLER AND ITS AFFILIATES FOR ANY CLAIM OF ANY KIND OR FOR ANY LOSS OR DAMAGE RELATING TO THE PRODUCTS OR SERVICES SHALL IN NO EVENT EXCEED THE PRICE ALLOCABLE TO THE PRODUCTS OR SERVICES WHICH GIVE RISE TO ANY SUCH CLAIM, LOSS OR DAMAGE, WHETHER ARISING UNDER WARRANTY/GUARANTEE, CONTRACT, NEGLIGENCE, STRICT LIABILITY, INDEMNIFICATION, DEFENSE OR ANY OTHER CAUSE OR COMBINATION OF CAUSES WHATSOEVER. SELLER WILL NOT BE LIABLE FOR SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES, INCLUDING LOSS OF PROFITS OR REVENUES, WHETHER ARISING UNDER WARRANTY/GUARANTEE, CONTRACT, NEGLIGENCE (INCLUDING NEGLIGENT MISREPRESENTATION), STRICT LIABILITY, INDEMNIFICATION, OR ANY OTHER CAUSE OR COMBINATION OF CAUSES, INCLUDING ANY THEORIES OF CONCURRENT LIABILITY ARISING FROM A DUTY OF CARE BY OPERATION OF LAW OR OTHERWISE. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FUNDAMENTAL BREACH OR FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. CUSTOMER’S REMEDIES ARE LIMITED TO THOSE REMEDIES STATED HEREIN AND THESE REMEDIES SHALL NOT FAIL THEIR ESSENTIAL PURPOSE BECAUSE CUSTOMER IS LIMITED TO THE EXCLUSIVE REMEDIES AS STATED HEREIN.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07917in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Cancellation of Orders by Customer for Convenience</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. Customer may cancel, for its convenience, orders for products prior to shipment of such products upon the following conditions: (i) for stock products held in inventory and distributed by Seller on a regular basis and in Seller’s ordinary course of business, Customer may cancel orders at any time up to forty-eight (48) hours prior to the scheduled shipment of such products; and (ii) for non-stock, custom products, Customer may cancel orders at any time prior to shipment provided that Customer shall be responsible, and shall reimburse Seller, for all work in process and all materials purchased by Seller and/or its suppliers for the production of such products, and Customer shall pay Seller an equitable adjustment for all other costs incurred by Seller in relation to the fulfillment by Seller of such orders.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Safety and Health Information</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. Seller has supplied or made available to Buyer information including but not limited to Safety Data Sheets. Buyer agrees to further communicate such information and warnings to all persons that they may reasonably foresee will be exposed to or handle such goods.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Trademarks.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> The purchase of Goods or Services from Seller shall not entitle Buyer to use, register, or otherwise identify Buyer or its business with the name, trademark, service mark or other identity of Seller. Should Buyer violate this provision, Seller may avail itself of all remedies provided for by law or in equity, including, without limitation, injunctive relief.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Export Sales</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. Buyer represents and warrants that it has complied and/or will comply with all applicable laws, rules and regulations pertaining to the export, import and movement of Goods sold hereunder. All drawbacks of duties paid on items used in the manufacture of the Goods delivered hereunder shall accrue to Seller, and Buyer agrees to furnish Seller with all documents and cooperation necessary to obtain payment of such drawbacks.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07778in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07917in</RightIndent>
+                <HangingIndent>-0.05pt</HangingIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Assignability. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>These Terms and Conditions shall bind the successors and assigns of the parties hereto at the option of the Seller. The rights and duties hereunder are not assignable or transferable by Customer, in whole or in part, by operation of law or otherwise, without the prior written consent of Seller that may be granted or withheld in its sole discretion. Any assignment or attempted assignment in contravention of the foregoing shall be null and void, shall be considered a breach of these Terms and Conditions and shall permit Seller, in addition to any other rights which it may have, to terminate the contract between Seller and Customer. Seller shall have the right to assign any rights or obligations hereunder to any third party.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07917in</RightIndent>
+                <HangingIndent>-0.05pt</HangingIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08056in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Severability. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>If any provision of these Terms and Conditions is held invalid, such invalidity shall not affect other provisions or applications of these Terms and Conditions.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08056in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08056in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Entire Agreement. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>These Terms and Conditions, along with the applicable Separate Agreement, Seller quotation or proposal, purchase order submitted by Customer and accepted by Seller, and/or Seller acknowledgement, bill of lading or invoice, constitutes the complete and exclusive agreement between Seller and Customer concerning the products or services sold hereunder. Any additional or different terms are objected to and shall not be binding unless expressly agreed to by Seller in writing.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.08056in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                  <LineHeight>9pt</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07986in</RightIndent>
+                <HangingIndent>-0.05pt</HangingIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Law Governing; Jurisdiction and Venue. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>The terms hereof shall be governed by and construed in accordance with laws of the State of Delaware. The United Nations Convention on Contracts for the International Sale of Goods shall not apply. WITH RESPECT TO ANY DISPUTE, CONTROVERSY, OR CLAIM ARISING FROM THE SALE OF PRODUCTS OR SERVICES BY SELLER TO CUSTOMER, SELLER AND CUSTOMER IRREVOCABLY AGREE THAT JURISDICTION AND VENUE IN ANY SUCH DISPUTE, CONTROVERSY, OR CLAIM SHALL PROPERLY AND EXCLUSIVELY LIE IN THE STATE OR FEDERAL COURTS LOCATED IN WILMINGTON, DELAWARE, AND SELLER AND CUSTOMER IRREVOCABLY AGREE THAT VENUE WOULD BE PROPER IN SUCH COURT AND HEREBY WAIVE ANY OBJECTION THAT SUCH COURT IS AN IMPROPER OR INCONVENIENT FORUM FOR THE RESOLUTION OF SUCH ACTION.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07986in</RightIndent>
+                <HangingIndent>-0.05pt</HangingIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Exporting of Goods. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Unless specified herein or otherwise agreed in writing, the products are provided to Customer for consumption in the United States of America, and Customer shall not transship or otherwise ship the products in violation of any export control law or regulation.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <HangingIndent>-0.05pt</HangingIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Independent Contractors. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Seller and Customer are independent contractors only and are not partners, master/servant, principal/agent or involved herein as parties to any other similar legal relationship with respect to the transactions contemplated hereunder or otherwise, and no fiduciary, trust, or advisor relationship, nor any other relationship imposing vicarious liability shall exist between the parties under these Terms and Conditions or otherwise at law.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <HangingIndent>-0.05pt</HangingIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07986in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Attorneys’ Fees</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. IN CONNECTION WITH ANY LITIGATION ARISING FROM THE SALE OF PRODUCTS OR SERVICES BY SELLER TO CUSTOMER, THE PREVAILING PARTY SHALL BE ENTITLED TO RECOVER ITS REASONABLE ATTORNEYS’ FEES AND EXPENSES FROM THE NON- PREVAILING PARTY AS PART OF THE SAME LITIGATION; PROVIDED, HOWEVER, IF A PARTY PREVAILS ON SOME, BUT NOT ALL, OF ITS CLAIMS, SUCH PARTY SHALL BE ENTITLED TO RECOVER AN EQUITABLE AMOUNT OF SUCH FEES, COSTS AND EXPENSES, AS DETERMINED BY THE APPLICABLE COURT COMMENSURATE WITH ITS DEGREE OF SUCCESS AGAINST THE NON-PREVAILING PARTY.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07986in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07708in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Force Majeure. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>Force Majeure means any circumstances beyond the reasonable control of either party, including without limitation fire, explosion, pandemics, epidemics, breakdown of machinery or equipment, plant shutdown, strikes or other labor disputes, acts of terrorism or war, riots or other civil disturbances or voluntary or involuntary compliance with any law, order, regulation, recommendation or request of any governmental authority, inability to obtain materials necessary for manufacturer of the products, total or partial failure of any of Seller’s usual means of transportation of the products, or for failure to obtain necessary governmental approvals, permits or licenses. Neither party will have any liability, other than for the payment of monies owing, for their failure to perform any of their contractual obligations arising out of or in connection with events of Force Majeure.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07708in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07847in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Waiver</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. The failure by Seller at any time to enforce any of the provisions of these Terms and Conditions, or to require performance by Customer of any of the provisions of these Terms and Conditions, shall in no way be construed to be a waiver of such provisions or to affect either the validity of these Terms and Conditions or any part hereof, or the right of Seller thereafter to enforce each and every provision in accordance with these Terms and Conditions.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <RightIndent>0.07847in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>8pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <LeftIndent>0.13264in</LeftIndent>
+                <RightIndent>0.07847in</RightIndent>
+                <Style>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox2</rd:DefaultName>
+            <Top>0.02556in</Top>
+            <Height>20.6214in</Height>
+            <Width>7.37376in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>20.7164in</Height>
+        <Style />
+      </Body>
+      <Width>7.37376in</Width>
+      <Page>
+        <PageHeader>
+          <Height>0.26167in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox1">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>TERMS AND CONDITIONS OF SALE</Value>
+                      <Style>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <Top>0.01167in</Top>
+              <Height>0.25in</Height>
+              <Width>7.37376in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <LeftBorder>
+              <Color>Black</Color>
+              <Width>1pt</Width>
+            </LeftBorder>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>0.44278in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox3">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Version - May 2022</Value>
+                      <Style>
+                        <FontStyle>Italic</FontStyle>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>Gray</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox3</rd:DefaultName>
+              <Left>6.15015in</Left>
+              <Height>0.25in</Height>
+              <Width>1.21528in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox4">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>15697364 v1</Value>
+                      <Style>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontWeight>Bold</FontWeight>
+                        <Color>Gray</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox3</rd:DefaultName>
+              <Top>0.15806in</Top>
+              <Height>0.25in</Height>
+              <Width>1.21528in</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <LeftMargin>0.5in</LeftMargin>
+        <RightMargin>0.5in</RightMargin>
+        <TopMargin>0.5in</TopMargin>
+        <BottomMargin>0.5in</BottomMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <EmbeddedImages>
+    <EmbeddedImage Name="ProgressiveLogo1">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>/9j/4AAQSkZJRgABAQEAYABgAAD/4RDsRXhpZgAATU0AKgAAAAgABAE7AAIAAAALAAAISodpAAQAAAABAAAIVpydAAEAAAAWAAAQzuocAAcAAAgMAAAAPgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJpZGFyLCBBbmkAAAAFkAMAAgAAABQAABCkkAQAAgAAABQAABC4kpEAAgAAAAM3MwAAkpIAAgAAAAM3MwAA6hwABwAACAwAAAiYAAAAABzqAAAACAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjAyMToxMDowMiAwOToxMjowOAAyMDIxOjEwOjAyIDA5OjEyOjA4AAAAQgBpAGQAYQByACwAIABBAG4AaQAAAP/hCx1odHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvADw/eHBhY2tldCBiZWdpbj0n77u/JyBpZD0nVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkJz8+DQo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIj48cmRmOlJERiB4bWxuczpyZGY9Imh0
+dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPjxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSJ1dWlkOmZhZjViZGQ1LWJhM2QtMTFkYS1hZDMxLWQzM2Q3NTE4MmYxYiIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIi8+PHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9InV1aWQ6ZmFmNWJkZDUtYmEzZC0xMWRhLWFkMzEtZDMzZDc1MTgyZjFiIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iPjx4bXA6Q3JlYXRlRGF0ZT4yMDIxLTEwLTAyVDA5OjEyOjA4LjczMDwveG1wOkNyZWF0ZURhdGU+PC9yZGY6RGVzY3JpcHRpb24+PHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9InV1aWQ6ZmFmNWJkZDUtYmEzZC0xMWRhLWFkMzEtZDMzZDc1MTgyZjFiIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPjxkYzpjcmVhdG9yPjxyZGY6U2VxIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+PHJkZjpsaT5CaWRhciwgQW5pPC9yZGY6bGk+PC9yZGY6U2VxPg0KCQkJPC9kYzpjcmVhdG9yPjwvcmRmOkRlc2NyaXB0aW9uPjwvcmRmOlJERj48L3g6eG1wbWV0YT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD94cGFja2V0IGVuZD0ndyc/Pv/bAEMABwUFBgUEBwYFBggHBwgKEQsKCQkKFQ8QDBEYFRoZGBUYFxseJyEbHSUdFxgiLiIlKCkrLCsaIC8zLyoyJyorKv/bAEMBBwgICgkKFAsLFCocGBwqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKv/AABEIADYBMgMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5
+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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="ProgressiveLogo2">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>/9j/4AAQSkZJRgABAQEAYABgAAD/4RDsRXhpZgAATU0AKgAAAAgABAE7AAIAAAALAAAISodpAAQAAAABAAAIVpydAAEAAAAWAAAQzuocAAcAAAgMAAAAPgAAAAAc6gAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJpZGFyLCBBbmkAAAAFkAMAAgAAABQAABCkkAQAAgAAABQAABC4kpEAAgAAAAM3MwAAkpIAAgAAAAM3MwAA6hwABwAACAwAAAiYAAAAABzqAAAACAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjAyMToxMDowMiAwOToxMjowOAAyMDIxOjEwOjAyIDA5OjEyOjA4AAAAQgBpAGQAYQByACwAIABBAG4AaQAAAP/hCx1odHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvADw/eHBhY2tldCBiZWdpbj0n77u/JyBpZD0nVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkJz8+DQo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIj48cmRmOlJERiB4bWxuczpyZGY9Imh0
+dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPjxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSJ1dWlkOmZhZjViZGQ1LWJhM2QtMTFkYS1hZDMxLWQzM2Q3NTE4MmYxYiIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIi8+PHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9InV1aWQ6ZmFmNWJkZDUtYmEzZC0xMWRhLWFkMzEtZDMzZDc1MTgyZjFiIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iPjx4bXA6Q3JlYXRlRGF0ZT4yMDIxLTEwLTAyVDA5OjEyOjA4LjczMDwveG1wOkNyZWF0ZURhdGU+PC9yZGY6RGVzY3JpcHRpb24+PHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9InV1aWQ6ZmFmNWJkZDUtYmEzZC0xMWRhLWFkMzEtZDMzZDc1MTgyZjFiIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPjxkYzpjcmVhdG9yPjxyZGY6U2VxIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+PHJkZjpsaT5CaWRhciwgQW5pPC9yZGY6bGk+PC9yZGY6U2VxPg0KCQkJPC9kYzpjcmVhdG9yPjwvcmRmOkRlc2NyaXB0aW9uPjwvcmRmOlJERj48L3g6eG1wbWV0YT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPD94cGFja2V0IGVuZD0ndyc/Pv/bAEMABwUFBgUEBwYFBggHBwgKEQsKCQkKFQ8QDBEYFRoZGBUYFxseJyEbHSUdFxgiLiIlKCkrLCsaIC8zLyoyJyorKv/bAEMBBwgICgkKFAsLFCocGBwqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKv/AABEIADYBMgMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5
+eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/ALvxP/aC8R+CPiPqnh7TdL0ue2s/K2SXCyF23wo5zhwOrHtXJ/8ADVvi7/oC6L/3xL/8crlf2g/+S7eIf+3b/wBJoq9w+BPgjwrrPwd0i+1fw3pN9dyPOHnubKOR2xM4GWIycAAUAcRpv7WWrpcL/a/hqxmhz832WZ42A9t24V7S/wASbLU/hDqHjbwxtnFvZyzLDcrjZIgyUcA9j6HpyDzXzh+0d4a0Twz8RLSDw9YwWEVxp6TTW9uoVA/mOuQo4GQo4HpW58JJ5G/Z1+I9uxPlRxO6j0LQ4P8A6CKAIv8Ahq3xd/0BdF/74l/+OUf8NW+Lv+gLov8A3xL/APHK8u+H1lbal8SPDllfwpPbXGp28U0UgyrqZACCPQivs2b4P/D2aB438J6aqspBKRbCPoRyPrQB5R4S/apW71aC08XaLDaW8zhGvLOQkRZ7sjZJHqQcj0Ne4eK/FukeDPDc2ua5ceXaRYC7BuaVj91UHcn/AOueBmvz+v4ooNSuYrZt8McrLG2c5UEgH8q94/aHv7kfD34eWMzMPNsjPMpPV1iiAJ9xub86AJdZ/ax1V7hh4f8ADlnDCD8rX0rSMw9S
+FKgfTJ+tZkX7VnjIPmfR9CdfRIplP5+Yaq/s3+CNE8X+JtWn8RWMd/Dp9uhjgm5Te7H5iO+Ap4PHNe9eK/hD4G1DwrqEMXhrTrKUW0jRXFrbrE8bhSQ2VxnB7Hg0Ac78M/2htM8b6zDoms6f/ZGpXB227LLvhmb+7kgFWPYHOfXOBXa/Eb4k6N8NtDS+1ffPPcMUtbSIjfMw69eijIye2R1PFfCmm3sum6taX1sxWa1nSaNh2ZWBB/MV7H+1NeyT/E6wtix8mDS4yi9gWkkJP44H5UAXL/8Aav8AE8k7HTNB0i3iz8q3HmzMB9Qyfyqsn7VnjQOPM0nQWXuFgmB/PzTW/wDs0eAfDmveGtT1zXtKttSuUvfs0S3cYkSNVRWJCnjJL9SO1dV410n4J69plxpEmpeHtDvIpcfabFYopYWVvmU4Az0IIP8AOgDS+Evx0s/iNqD6PqFgNM1ZYzJGqSb451H3tpPII64OeOc1zHxT+P3iLwL8RL/w/pmmaZcW1skTLJcLIXO6NWOcOB1PpUHw6+H/AMNtC+IGlaj4d+Ia6jqUMjCG0EkZ84sjKV456E15l+0T/wAlw1j/AK52/wD6ISgDpP8Ahq3xd/0BdF/74l/+OVPa/tYeJEmBvfD+lTR55WFpIyfxLN/Kuy+BHw+8JeIPhNYahrfh6wvruSaZWmmhDMQJCBz9K8//AGk/B/h3wnrmiHw3YQ6e13BKbiGA4U7WXa23tnLD3xQB9E/Dj4i6Z8SfDZ1TTI3t5YX8q5tZCC0L4z1HUEdD/LFeB3f7VHi23vJoV0bRSscjKCUlyQDj/npWt+yQZfO8VDnyttr9N373+lfPOpf8hW7/AOuz/wDoRoA9q/4at8Xf9AXRf++Jf/jldT8Nv2hfEfjT4iaV4f1HS9Lgtr1pFeSBJA67Y2YYy5HVR2qXT/iB8BI9MtUutF0tp1hQSE6DklgBnnZzzXXeAfEfwk8ReKUg8EaRp0WrW8TTpLFpIgZF
+GFYh9gx97HXvQBR+LHx8tvh/rR0LSNOXUtURFedpZNkUG4ZUHHLHGDjjAI5ry1/2rPGhb93pGgqvo0Ex/wDaorkvjvZ3Fn8atf8AtKsPOlSWMn+JGjXBH8vwr0D4V/Fz4ceF/AllpWu6JImpRb/tFwtjHKJiWJDbs7jwQMEcYxQBX039q/xJHcqdX0DSriDPzLamSFsexZnH6V9D6N440XWvAKeL4ZzFpf2Z7iVpB80QTO9SB3BUjjr2r518TL8F/iB4rOpJ4luvDjzIqNCmmlImYZ+YkAgEjGScDivTb/wNbeGv2a9e0Xw1qT6vbyWst3DcAqfMU4chdvBGFPT1oA4DXP2sNUa+kXw34fs47UEhHv3d3cepCFQPpk/Wsf8A4ar8b550rw/j/r3m/wDjteU+E9R07SPF2l6hrll9v0+2uUkuLbaG8xAeRg8H6Hg9K+kr740fB7WtHuNOvNLkhhuImjO7S0ymRjI25wR1BFAB8Nv2kh4o8SWmheKNLhsZr1xFb3Vq58syH7qsrZIyeAcnkjjvXS/G74qat8MYdGfRrKyujqDTCT7Wrnbs2YxtYf3jXl/gH4Z/DLX/ABFZS+G/H13Pf20yTx2k1uIZHKENgBgN3T+HNbH7W/8Ax6+Ff9+6/lFQB0Pwt+MXif4iab4mJ0zTY77S7NZrOOJJNsshD4VsuTglQOMda4XTf2qvEb6taJqmj6Slk06C4aJJQ6x7huK5cjOM9qt/slf8hXxP/wBcLf8A9Ckryv4u+Gf+EU+Kmt6dGmy3ec3NuAOPLk+cAewyV/4DQB93KyugZCGVhkEHgivGvjT8bb/4ca/p+k6FZ2V3PLbm4uftQc7AWwgG1hz8rZz7V1PwU8S/8JR8JNGupH33FrF9jnyed0Xygn3K7W/Gvkf4p+Jv+Et+J2t6qj74GuDFbnPHlR/IpH1C5/GgD6J8B/GLxR4q+H/i3xPqGmabBFotqz2oiSTE0qxs5DZc8ABemD81ed/8
+NW+Lv+gLov8A3xL/APHK9M0Xwx/wiv7J+o2kibLm50S5vLjjB3yRFsH3C7V/4DXyr4WuNPtPF+j3Otokmmw30L3aPH5itEHBcFf4htzx3oA9e/4at8Xf9AXRf++Jf/jlej/Bb4z638SvE9/pusafp9rFbWf2hWtVcMW3quDuY8fNWf8A8LD/AGfv+gJpX/ggH/xuu6+Gmr/DrX5b+7+HemWNtLbBIrmW304WzEPkgZ2gkfJn8KAO/ooooA+Jf2g/+S7eIf8At2/9JoqxtA0v4j3Oiwy+GLXxLJpjFvKawE/kk7juxt465z75r1j4u/BPxr4u+Kmr65oljby2N15PlO90iE7YI0PBORypr2T4PeGdT8H/AAv03RdciSK+t2mMiJIHA3Ssw5HHQigD5Kj+FvxI13UN03hnWZbiQ4aW9jZM/V5Mfqa99074dzfDn9mvxRY6hJHJqN5ZT3N0YzlUJjwEB74A6+pNe31z/j3SbvXvh9ruk6aivd3ljLDCrMFBZlIAyelAHwNpkF7c6rawaSsz30kqrbrATvMhPyhcc5zjFdpf+EvitDp88moad4mNqqEy7zKy7e+Rk8Yrs/BHwD8e6J4+0HVNQ062S1stQgnmZbuNiEVwScA88CvrKgD4D8B6l4U0zxJbT+NNIudSs1lUkRXAVUGerJty+PTcM+9ezftYIJYvCN5b4a2ZLlUdfu8+UR+lcXdfs5fER7yZ4dLtBG0jFf8ATIxxnjvX0j4q+G1l45+Gtj4d1pmtrm1giMNxGAxgmVNuf9odQR3H4GgDwz9lrxBpek+JNcstTvYbSW+giNv50gQSFGbKgnv8wOPY19CeM/F+haD4R1O7v9UtEC2snlp5y7pWKnCqM5JJ44r5l1b9mTx5Y3DLpw0/U4s/K8VyIyR7h8YP4ms+L9nP4kySBX0e3iH9576HA/JiaAPNbG1kvdRtrWEFpJ5VjQDuWIA/nXsH7UcDxfFa1dlISTS4ih9cPIP6V33w
+r/Zyl8NeILXX/GF7b3NzaMJbaztcsiyDozsQMkHkADqAc9q7v4t/Caz+J2k2+Ln7Dqllu+zXJTcpB6o49Dgc9vzBAOB/ZV17To/Cer6NNdwxXq3/ANoWF3Cs6NGi5APXBQ5x0yPWuY+Lvwb8PeF9J1jxPL4rZ764uGmt7Bo0BleSTJUfNkgAk5x0Fc9ffs0/EO1mZLe1sL1QeHgvFUH/AL72mq8X7OXxJkYBtIt4h6vfRcfkxoAxvgsjv8Z/DQjGT9rz+AVif0zWt+0T/wAlw1j/AK52/wD6ISvZPgz8BrnwNrf/AAkXie6t59RjjZLa3tiWSHcMMxYgZbBIwBgZPJ7cx8Yvgt408YfFDUda0Kxt5rK4SERu90iElYlU8E56g0AeS+HPDnxE1HRY7nwvZ65LpzMwjazeQRkg/NjBx1rG17T9a0rXBD4ytNRjusBnjuyySunqGcHjrzgivs/4NeFtU8G/DOz0bXokhvYppmdEkDgBnJHI46GuJ+P/AML/ABL4/wBX0a58M2cM62sEkczSTrGQSwIHJ570Aa37O+qeFL/wPcw+E9Ml02e3mAv455fNkdyPlcvgZBAIHAxg8dz8gal/yFbv/rs//oRr60/Z9+HHiP4fLr48TW0UH202/k+XOsmdnmbuh4+8K8dvf2dPiLNf3EsemWpV5WZT9tj6E/WgD1TTv2dvhzdaXa3E1/fiSWFHcC+QclQT/DXW+BfhH4N8CeIjqvh68upLySFoNs90jgqxBPAA5+UV87/8M3/Ef/oGWv8A4Gx/411Pw1+Bfjnw18SdF1jVrC3js7O48yZ1u0YgbSOgOT1oA6T4uePPhXqfiS50Pxt4f1i41HTG8kXlpGiMoxuwreYCV5zhhjnpSeH/ANnn4d+MfDdnruh6rr0Vrex70V54SydirAIcEEYIyat/GX4B3/jPxI/iTwrdWyXk6Kt1a3LFBIyjaGVgDzgAEHHTOa8qX9n34o2uVt9NULn/AJZajEoP
+/jwoAyvjF8O7D4beKrbTNL1OS/jnthOVmC+ZEdxGDjjnGRwK9a/Z/wDGQ8PfBfxDfaytxc6do93vWOIBnCOq7lUEgYyc4z3Nef2X7NvxFv7oC9trOzDH5pbi8V8f98bia+ifBXwm0zwr8MrvwjczNerqSyfbpwu3ezqFO0c4AAGPpnvQB4nap8EPiL4zttOsNK1/QrvUpSqvE0UUAfBPQs4XJGAFGMkcV2V/+yt4TS1lkt9f1W2KoW8y4aJ0TjqflXj8RXnmu/sxeNbC+kGivZara7j5UgnET47blbAB+hNZrfAH4qSKY5NM3IeCG1KIj8t9AHmdtdT6VqkV1YXBS4tZhJDNGcYZTkMPxGa+h/2rJWn0nwfM67WkFwxHoSsRrM8Ffswa7LrFvc+NLi1tLCJw8lrBJ5sswBztyBtUHpnJPtXoP7QPw58RfEC30FPDFrFObJpzMJJlj2hhHtxk8/dNAHE/slf8hXxP/wBcLf8A9Ckq1+1f4Z40TxPCn96wuGA+rx/+1P0ro/2fvhn4m+H9/rkvia1hgS8ihWExzrJkqXz0PHUV6B8UfCL+N/hxqui26q13JGJLXccfvUO5RntnG3PoTQB8x/Cj4l/8Id8P/GumvNsmmtBPYDOCJmIiOPU/OjfRDXGfDnw0fF/xF0bRSpaK4uVM/wD1yX5n/wDHVNdd/wAM3/Ef/oGWv/gbH/jXq3wF+DuueCPEuo6z4rtoYZvswgtFjmWT7xy7cdMBVH/AjQB6f8TQF+E3ikKAANIuQAO37pq+HfCem22s+M9F0y/Zltby/ggmZW2kI8gViD2OCea+7/HGl3WueAdd0rT0V7q90+aCFWYKC7IQBk9OTXyb/wAM3/Ef/oGWv/gbH/jQB7J/wzf8Nf8An/1D/wAD4/8A4mu2+Hnw88NfD5b+HwxczzfbijTCe4WQjZkDGAMfeNfMv/DN/wAR/wDoGWv/AIGx/wCNenfAb4S+LPAfju91PxJZwwWs2mvb
+o0dwkhLmWJgMA+iGgD6BooooA+WPjJ8XfHPhf4tazo+ha61pYW3keVCLaFtu6CNjyyE/eYnr3qPRPEH7Q/iLS4tR0iS9mtJl3RSvbWkQcdiN6gke/SuQ/aD/AOS7eIf+3b/0mir1n4yTeM4LfwKPh+2rJbG1HGmeZ5ZbEewPs4Ix0DcYz70AeZa58XvjB4a1aTTNd1m5sbyLBaGWytwcHoR8mCPccVn/APC/PiZ/0M7/APgJB/8AG6b8af8AhMf+E0tv+FhfY/7U+wp5f2PG3yt74zjvnd+leeUAek2/x0+KV5dRW1p4innnmcJHFHYwMzsTgAAR5JNdu+oftJJZm6ZL/wAsLuwLa0L4/wBwLuz7Yrg/gIsTfHHw6Ljbt3zEbv7wgkK/rivZNDuPHj/tT3kd2+t/8I8ss+UkMn2QReSdhAPyfe24x3/GgDx1/jz8TopGjk8Syo6kqytZwAgjsR5dJ/wvz4mf9DO//gJB/wDG6xvin5I+LXij7Pt2f2nP93pnec/rmuToA9e8M/E/40eMtRlsfDWrzX9zFEZnjS3tVwgIGfmUDqw/Op7j4g/HG08XxeF7jUblNamx5dp9mtSWyu4YIXbjGT17Va/ZWz/wsjVsdf7Hkx/3+ir1bSDputRaJ8Yr50LaZ4fuI7teh89OCR/5HH4rQB4/4p+IXxw8FG1HijU59PN3v8jfb2rb9uN33VPTcOvrXP8A/C/PiZ/0M7/+AkH/AMbrtf2j72fUvCfw6vrs5uLnT5ZpSO7MluT+prwWgD0X/hfnxM/6Gd//AAEg/wDjdegNcftKopYrd4HpFZE/kBXz0OtfbHjy2hh+I2gaxefEWDw1a2Kq82lzXXlC9USEnKl1BBHy5waAPnTUPjZ8V9K1Cax1LXri1uoHKSwzWMCsh9CDHVf/AIX58TP+hnf/AMBIP/jdV/jZ4g0vxN8WtW1LQpluLNhFGs6D5ZSkaqSPUZGM98VwVAHp2nfGv4savqENhpeu
+3N3dzttihhsYGZz7AR1199qv7R2nae97dC+EEal2MdtaSMAOp2qpb9Kwf2Y1ib4wAy7dy6fMY8/3sqOPwJ/WvSfhPP48l+OXiRfEb60dIVbnat55n2dT5y+Xs3fKPlzjb2z2oA8c/wCF+fEz/oZ3/wDASD/43R/wvz4mf9DO/wD4CQf/ABuuK8QeSPE2p/Ztvk/bJfL29Nu84x+FZ9AHsnhb4ifG/wAavcp4Y1SfUGtQpmCW9quwNnH3lHXafyqzbeM/j1d+LLrwzb3ty2sWkXnTWv2e0BRPl+bJXBHzr0Perf7N9zNZeH/iDdWjlJ4NNSSJh1VgsxB/MV7N4YtYPE3jDQfiPpqARap4fe1uwv8ADJ5kbKD7giRSf9kUAfNEvx4+J8MzxS+JpFdGKsPslvwR1/gpv/C/PiZ/0M7/APgJB/8AG64XVf8AkM3v/XxJ/wChGqlAHsXhf4jfG3xpNcReGNVmv5LZVaZUt7VdgOQPvKPQ1d8S+MPj34Q0tdR8SXtxY2jSiEStBaMC5BIGFUnop/Kr/wCyxgXvi3d5oX7DFnyfv9X+77+lcr8T5rKTw5bjTZ/iFKBcgyjxOxNuBtbG3/bz+maAKH/C/PiZ/wBDO/8A4CQf/G6P+F+fEz/oZ3/8BIP/AI3XnVFAHuj+Jv2gk8M/8JA1xdf2X9lF39oEFoR5JXdvwFzjbz0rKuviZ8arLwna+JrrV5o9GvJPKguzb2pDt8wxjbn+Buo7V7jofiKHTNH+GOh6htaw1/QjaSI/3WkEEBTP1G9f+BVwHxf8OSeEv2btI0KXcfsOuvHGzdWj3XJRvxUqfxoA8z/4X58TP+hnf/wEg/8AjdH/AAvz4mf9DO//AICQf/G686ooA+g4rz9pKeFJYvtTJIoZT5dlyDyO1cjrvxf+L3hrWp9J1zXZbS+t9vmwta2zFdyhhyEI6EGu1+GPibXrr9n3x3e3Wt6jNdWaMLaeS7kaSACIY2MTlfwr591DUb3V
+r6S91S8uL26lx5k9zK0jvgYGWYkngAfhQB3v/C/PiZ/0M7/+AkH/AMbrR0L4u/GHxNq0em6DrNzfXkgJWKKytycDqSdmAPc15TXrH7Oep3+l/EyebTdGuNXD6dIk8VtJGskcZeM7x5jKDhgoxnofagDf1vxB+0P4c0mXU9YlvILOEbpZVt7SQIPUhVJA966P9nz4m+L/ABp48v8AT/E2sNfWsWmvOkZgiTDiWNQcqoPRj+dX4dOtPEPgfxp/wiWu+L9McW0j3ltrkSvFLlHyg8xSRkBgSrAjIPPFcL+yn/yU/U/+wPJ/6OhoA+tKKKKAPiX9oP8A5Lt4h/7dv/SaKqOifGnx/wCHtIg0zS/EMiWlugSGOWCKXYo6AM6k4HYZ4oooA5bXvEOreKNYl1TX76W+vZQA0smOg6AAcAewGKzaKKAJrO8udPvYbyxnkt7mBxJFLExVkYHIII6Gu9k+PPxKlszbN4mlCFdpdbaFXx/vBM5985oooA8+kkeaV5ZnaSR2LM7HJYnqSe5ptFFAG34V8Y694J1KXUPDF/8AYbqaEwPJ5SSZQkMRh1I6qPyqWDx34ltfCF14Xg1R00a7kMk1qI0+ZiQT82NwGVHAIHX1NFFADPEPjTX/ABVY6baa9f8A2uDSojDZp5MaeUhCjGVUE8IvXPSsKiigArd8V+NfEHje+hvPFGoG+uII/Kjcwxx7VyTjCKB1JoooAwqKKKALmk6vqGhapBqWj3ctneW7bopomwynp/LjHeu0v/jn8RtS097K58TTCKRSrmG3iicg/wC0qAj8DRRQB5/RRRQBueHvGev+FLXUbfQL/wCyRanEIbtfJR/NTDDHzKccM3THWtbw38W/G/hLRU0nw/rrWljGzOkJtoZNpY5OC6E9ecZoooA4+WV55nllO55GLMcdSeTTaKKAOg8J+O/Efgae5m8LakbCS6VVmIhjk3AEkffU46npV/xP8VfGfjLSBpniTWTe2YlEoi+zQx/M
+AQDlEB7nvRRQByFFFFAHSX3xB8Uajb6HDeaqzp4f2/2ZthjU2+0KFwQoLY2L97PSrPin4peMfGmlJpvibWTfWiTCZYzbRR4cAgHKID0Y9+9FFAHJUUUUAbuleNNf0Tw5qOg6XqBg0zUwRdweSjebkY+8VLDj0IrCoooAK0/D3iPV/CmsR6p4evpLG9jBUSxgHIPUEEEEexFFFAHUa18aviBr+kz6ZqfiGR7S4QpMkVvFEXU9QWRQcHoRnmu0/ZT/AOSn6n/2B5P/AEdDRRQB9aUUUUAf/9k=</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No_">
+          <DataField>No_</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>
